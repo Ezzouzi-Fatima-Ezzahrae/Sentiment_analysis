@@ -38,24 +38,6 @@ Four models benchmarked end-to-end: Naive Bayes · Logistic Regression · Linear
 
 ---
 
-## Project Structure
-
-```
-NLP/
-├── imdb_sentiment_analysis_submission.ipynb   # Full pipeline notebook
-├── Project_Report_FINAL.docx                  # Academic project report (IU DLBAIPNLP01)
-├── IMDB Dataset.csv                           # Source dataset (50K reviews)
-├── images/                                    # Figures exported from notebook
-│   ├── accuracy_comparison.png
-│   ├── confusion_matrix_sgd.png
-│   ├── training_loss_bigru.png
-│   ├── wordclouds.png
-│   ├── review_length_distribution.png
-│   └── class_distribution.png
-└── README.md
-```
-
----
 
 ## Pipeline Overview
 
