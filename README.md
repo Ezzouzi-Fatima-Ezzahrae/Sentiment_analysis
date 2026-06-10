@@ -34,7 +34,7 @@ Four models benchmarked end-to-end: Naive Bayes · Logistic Regression · Linear
 
 > Test set: **9,917 samples** · Stratified 80/20 split · 49,582 deduplicated reviews
 
-**Key finding:** TF-IDF bigram features allow classical linear models to match a purpose-built deep learning architecture at 150× lower training cost — confirming that feature quality is often the primary performance driver in text classification.
+**Key finding:** TF-IDF bigram features allow classical linear models to match a purpose-built deep learning architecture at 150× lower training cost  confirming that feature quality is often the primary performance driver in text classification.
 
 ---
 
@@ -73,7 +73,7 @@ Raw Data  →  Deduplication  →  EDA  →  Preprocessing  →  Feature Enginee
 
 ![Word Clouds](images/wordclouds.png)
 
-*Post-preprocessing word clouds — stop words removed, Porter stemming applied*
+*Post-preprocessing word clouds , stop words removed, Porter stemming applied*
 
 </div>
 
@@ -175,7 +175,7 @@ Three systematic failure modes identified across all models:
 
 | Category | Example Pattern | Root Cause |
 |:---|:---|:---|
-| **Sarcasm & Irony** | *"Hilarious! What a disaster."* — positive surface, negative intent | No pragmatic inference without world knowledge |
+| **Sarcasm & Irony** | *"Hilarious! What a disaster."*  positive surface, negative intent | No pragmatic inference without world knowledge |
 | **Negation ambiguity** | *"not bad"*, *"not a fan but..."* | Bigram has conflicting training signal across classes |
 | **Long-range drift** | Positive opening contradicted by negative conclusion (500+ words) | Bag-of-words ignores position; BiGRU partially mitigates |
 
